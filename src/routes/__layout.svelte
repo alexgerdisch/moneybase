@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>Built by <a href="https://netlify.com">Netlify</a> with 💙 </p>
+	<p><a href="https://netlify.com">Netlify Built</a> 💙 </p>
 </footer>
 
 <style>
