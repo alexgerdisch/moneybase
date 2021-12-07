@@ -10,14 +10,15 @@
         
     },
     {
-        "company": "Restaurant Brands International",
-        "tags": ["Standardizing Techstack"],
-        "industry": "Food",
-        "project": "Teddy Sherril, CTO, wanted to move from using agency developers to an in house team with a standardized tech stack across brands and sites.",
-        "whyImportant": "This was important becuase RBI planned a revamp of brands, sites, even menus that required a rapid pace of development that was not currently possible.",
-        "whyStatusQuoBad": "This was not possible before using agency developers who took months to deliver projects with a variety of technologies.",
-        "quantifiedResults": "Netlify enabled RBI's lean internal dev team to have a standard tech stack across 25+ sites around the world that could handle intense traffic spikes, including one site that saw 500k users in 5 minutes on launch."
+        "company": "UW Health",
+        "tags": ["Next.js", "Contentful", "Monolith"],
+        "industry": "Healthcare",
+        "project": "Noah Locke, Director of Marketing Technology at UW Health, partnered with an agency, Last Rev, to migrate away from their Java-based, on-prem hosting and deploy infrastructure.",
+        "whyImportant": "This was important because the Marketing was needing to wait 1+ days for changes to go out the door, which was negatively impacting the user experience and collaboration between Marketing and Development",
+        "whyStatusQuoBad": "Their existing architecture and process was blocking the teams from deploying faster. In addition, orchestration and maintenance of their on-prem servers took a lot of the Dev team's time",
+        "quantifiedResults": "Since moving to Netlify with Contentful as their CMS, UW Health pushes builds out in 7 minutes, has improved collaboration with Marketing by using collaborative deploy previews, and have streamlined how updates are shipped, making their user experience much better and faster."
     },
+    
     {
         "company": "Ecobee",
         "tags": ["Self-serve Upsell"],
@@ -136,13 +137,14 @@
         "quantifiedResults": "Since moving to Netlify, the front-end team team now works out of a single codebase for all domestic and international sites, ships 700+ changes per moth, and has faster pages that are more SEO friendly."
     },
     {
-        "company": "UW Health",
-        "tags": ["Next.js", "Contentful", "Monolith"],
-        "industry": "Healthcare",
-        "project": "Noah Locke, Director of Marketing Technology at UW Health, partnered with an agency, Last Rev, to migrate away from their Java-based, on-prem hosting and deploy infrastructure",
-        "whyImportant": "This was important because the Marketing was needing to wait 1+ days for changes to go out the door, which was negatively impacting the user experience and collaboration between Marketing and Development",
-        "whyStatusQuoBad": "Their existing architecture and process was blocking the teams from deploying faster. In addition, orchestration and maintenance of their on-prem servers took a lot of the Dev team's time",
-        "quantifiedResults": "Since moving to Netlify with Contentful as their CMS, UW Health pushes builds out in 7 minutes, has improved collaboration with Marketing by using collaborative deploy previews, and have streamlined how updates are shipped, making their user experience much better and faster."
+        "company": "Restaurant Brands International",
+        "tags": ["Standardizing Techstack"],
+        "industry": "Food",
+        "project": "Teddy Sherril, CTO, wanted to move from using agency developers to an in house team with a standardized tech stack across brands and sites.",
+        "whyImportant": "This was important becuase RBI planned a revamp of brands, sites, even menus that required a rapid pace of development that was not currently possible.",
+        "whyStatusQuoBad": "This was not possible before using agency developers who took months to deliver projects with a variety of technologies.",
+        "quantifiedResults": "Netlify enabled RBI's lean internal dev team to have a standard tech stack across 25+ sites around the world that could handle intense traffic spikes, including one site that saw 500k users in 5 minutes on launch."
     }
+    
     
 ]

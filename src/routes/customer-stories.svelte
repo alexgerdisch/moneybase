@@ -3,32 +3,48 @@
     console.log(data);
     import '@fontsource/barlow';
    
+
 </script>
 
-<h1>Customer Stories</h1>
+<h1><strong>Customer Stories</strong></h1>
+
+<section class="filters-grid">
+    <div class="tag-holder-bar">
+        <p class="tag">Next.js</p>
+        <p class="tag">Dynamic Sites</p>
+        <p class="tag">Vercel ⚔️</p>
+        <p class="tag">WP Migration</p>
+        <p class="tag">Self-serve Upsell</p>
+        <p class="tag">Azure</p>
+        <p class="tag">Monolith</p>
+        <p class="tag">Shopify</p>
+    </div>
+</section>
 
 <section class="stories">
     {#each data as { company, tags, industry, project, whyImportant, whyStatusQuoBad, quantifiedResults}, index}
-        <div class="story-snippet">
-            <h2>{company}</h2>
-            <div class="tag-holder">
-                {#each tags as tag}
-                    <p class="tag">{tag}</p>
-                {/each}
+        <a href="/peloton">
+            <div class="story-snippet">
+                <h2>{company}</h2>
+                <div class="tag-holder">
+                    {#each tags as tag}
+                        <p class="tag">{tag}</p>
+                    {/each}
+                </div>
+                <p class="industry"><em>{industry}</em></p>
+                <p>{project}..</p>
             </div>
-            <p class="industry"><em>{industry}</em></p>
-            <p>{project}..</p>
-        </div>
+        </a>
 
     {/each}
 </section>
 
-<section class="modal-overlay">
-
-</section>
 
 
 <style>
+    h1 {
+        font-size: 2.5rem;
+    }
     .stories {
         font-family: 'Barlow';
         display: grid;
@@ -52,13 +68,20 @@
     .tag-holder {
         display: flex;
         flex-direction: row;
+
+    }
+    .tag-holder-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .tag {
-        margin: 2px;
+        margin: 2.5px;
         padding: 3px;
         border-radius: 5px;
         background-color: grey;
+        text-decoration: none;
     }
 
     .industry {
