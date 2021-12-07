@@ -1,9 +1,11 @@
 <script>
-    
+    import data from './data/stories.json';
+    console.log(data);
 
 </script>
 
 <section class="browsing-view">
+    
     
 </section>
 
