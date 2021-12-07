@@ -54,6 +54,10 @@
         padding: 1.5rem 3rem 3rem;
     }
 
+    .stories a {
+        text-decoration: none;
+    }
+
     .story-snippet {
         background-color:  rgba(11, 0, 14, 0.61);
         padding: 9px;

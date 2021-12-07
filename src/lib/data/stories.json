@@ -29,13 +29,13 @@
         "quantifiedResults": "After transitioning to Netlify with headless Shopify, the team has seen a dramatic decrease in build times and and are transitioning all of their web properties."
     },
     {
-        "company": "Cornerstone OnDemand",
-        "tags": ["Localization"],
-        "industry": "B2B Software",
-        "project": "Trevor Smith, Director of web development, was working to improve the performance of their marketing sites and unlock their marketing team to make changes quickly to the site without dev resources.",
-        "whyImportant": "This was important because there were 12+ international marketing sites with cross functional teams around the world making changes and updates.",
-        "whyStatusQuoBad": "The existing architecture made it impossible for the team to make changes without IT resources, led to poor performing sites, and impacted their ability to hire great engineers.",
-        "quantifiedResults": "After moving to Netlify, there are no longer any dependencies on IT or Devops to make site changes. Development tasks complete 30% faster, and page load times improved by over 25%."
+        "company": "Gemini",
+        "tags": ["Next.js", "Vercel ⚔️"],
+        "industry": "Crypto",
+        "project": "Chris Henderson, Software Developer, wanted to simplify the build and deploy process for their main marketing site.",
+        "whyImportant": "This was important because Gemini has been in hypergrowth and needed more flexibiity in how their cross functional teams managed the marketing site.",
+        "whyStatusQuoBad": "This was not possible before using Wordpress and AWS because they had significant overhead managing AWS problems with caching, redirects, and managing environments.",
+        "quantifiedResults": "Gemini chose Netlify over Vercel after finding it had an easier to use dev workflow, more robust support and docs, and supported all the next.js functionality they required. "
     },
     {
         "company": "HR Block Canada",
@@ -64,14 +64,15 @@
         "whyStatusQuoBad": "They could not rely on Nordstrom.com, or buiild a new site themselves from scratch due to limited internal dev resources.",
         "quantifiedResults": "By building and hosting on Netlify, they were able to quickly ship a new site with a small team. The new site sold $1m+ in the first 30mins, with over 100k unique sessions." 
     },
+    
     {
-        "company": "Gemini",
-        "tags": ["Next.js", "Vercel ⚔️"],
-        "industry": "Crypto",
-        "project": "Chris Henderson, Software Developer, wanted to simplify the build and deploy process for their main marketing site.",
-        "whyImportant": "This was important because Gemini has been in hypergrowth and needed more flexibiity in how their cross functional teams managed the marketing site.",
-        "whyStatusQuoBad": "This was not possible before using Wordpress and AWS because they had significant overhead managing AWS problems with caching, redirects, and managing environments.",
-        "quantifiedResults": "Gemini chose Netlify over Vercel after finding it had an easier to use dev workflow, more robust support and docs, and supported all the next.js functionality they required. "
+        "company": "Cornerstone OnDemand",
+        "tags": ["Localization"],
+        "industry": "B2B Software",
+        "project": "Trevor Smith, Director of web development, was working to improve the performance of their marketing sites and unlock their marketing team to make changes quickly to the site without dev resources.",
+        "whyImportant": "This was important because there were 12+ international marketing sites with cross functional teams around the world making changes and updates.",
+        "whyStatusQuoBad": "The existing architecture made it impossible for the team to make changes without IT resources, led to poor performing sites, and impacted their ability to hire great engineers.",
+        "quantifiedResults": "After moving to Netlify, there are no longer any dependencies on IT or Devops to make site changes. Development tasks complete 30% faster, and page load times improved by over 25%."
     },
     {
         "company": "Affirm",

@@ -14,10 +14,10 @@
     
     <p>-------------------------------------------------</p>
     
-    <p>Raj Nigam, Frontend Developer, wanted to quickly build a new site for Peloton without using infra resources.</p>
-    <p>This was important becuase as a hyper growth startup, they needed to have a quick dev workflow, the ability to build and host reliably without any downtime, and an easy to manage stack.</p>
-    <p>They could not accomplish this using Cloudflare, etc because their infra stack required constant mantenence and a dedicated team. It limited the ability of their cross functional teams (marketing, content, eng, support) to get things done.</p>
-    <p>Now, Peloton has standardized on a jamstack architecture using Netlify. Their team of 200+ devs deploys 1300 times a day across 75 unique sites.</p>
+    <p class="story-text">Raj Nigam, Frontend Developer, wanted to quickly build a new site for Peloton without using infra resources.</p>
+    <p class="story-text">This was important becuase as a hyper growth startup, they needed to have a quick dev workflow, the ability to build and host reliably without any downtime, and an easy to manage stack.</p>
+    <p class="story-text">They could not accomplish this using Cloudflare, etc because their infra stack required constant mantenence and a dedicated team. It limited the ability of their cross functional teams (marketing, content, eng, support) to get things done.</p>
+    <p class="story-text">Now, Peloton has standardized on a jamstack architecture using Netlify. Their team of 200+ devs deploys 1300 times a day across 75 unique sites.</p>
     
 </section>
 
@@ -54,5 +54,9 @@
         border-radius: 5px;
         background-color: grey;
         text-decoration: none;
+    }
+
+    .story-text {
+        font-size: 1.5rem;
     }
 </style>
